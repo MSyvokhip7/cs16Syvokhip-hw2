@@ -17,16 +17,6 @@ public class QueueTest {
     }
 
     @Test
-    public void dequeue() throws Exception {
-        Queue myQueue = new Queue();
-        myQueue.enqueue(1);
-        myQueue.enqueue(2);
-        myQueue.enqueue(3);
-        myQueue.dequeue();
-        assertEquals(myQueue.toString(), "2 3 ");
-    }
-
-    @Test
     public void enqueue() throws Exception {
         Queue myQueue = new Queue();
         myQueue.enqueue(1);
